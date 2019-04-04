@@ -3,7 +3,7 @@
 -injars       target/Lesson_01.2.jar
 -outjars      target/Lesson_01.2-out.jar
 
--libraryjars  <java.home>/lib/rt.jar #contains all of the compiled class files for the base Java Runtime environment
+-libraryjars  <java.home>/../Classes/classes.jar #contains all of the compiled class files for the base Java Runtime environment
 -printmapping pgmapout.map
 -dontwarn
 
